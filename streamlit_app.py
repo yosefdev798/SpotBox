@@ -19,4 +19,4 @@ if uploaded_file is not None:
     for result in results:
         im_array = result.plot()
         im = Image.fromarray(im_array[..., ::-1])
-        st.image(im, caption='Detected Image', use_column_width=True)
+        st.image(im, caption='Detected Image')

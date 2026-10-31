@@ -25,7 +25,7 @@ def ask_llm(prompt, context):
     }
 
     data = {
-        "model": "llama3-8b-8192",
+        "model": "openai/gpt-oss-20b",
 
 
 
